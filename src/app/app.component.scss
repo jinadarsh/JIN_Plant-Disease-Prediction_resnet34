@@ -1,0 +1,241 @@
+
+// .toolbar {
+//   // background-color: var(--color_secondary);
+//   background-color: #fefefe;
+//   box-shadow: 1px 0px 50px 10px rgba(0, 0, 0, 0.4);
+//   padding: 4.5rem 2rem;
+//   display: flex;
+//   flex-flow: row 1;
+//   align-items: center;
+//   justify-content: center;//ed
+//   // background-image: url('green-leaves-background.jpg');
+//   // background-size: cover;
+//   // background-repeat: no-repeat;
+//   // background-position: center;
+  
+  
+//   .upload-button {
+//     background-color: white;
+//     color: black;
+//     font-size: 1.2rem;
+//     padding: 1rem 6rem;
+//   }
+ 
+//   h2 {
+//     align-content: center;
+//     display: inline;
+//     margin: 0;
+//     padding: 0;
+//     // color: var(--color_primary);
+//     color: #000000;
+//     font-size: 2.5rem;
+//     font-weight: bold;
+//     flex-grow: 1;
+//     text-align: center; //ed
+//   }
+// }
+
+// .content {
+//   padding: 2rem;
+//   box-sizing: border-box;
+//   mat-card {
+//     height: 100%;
+//     overflow: hidden;
+//     border-radius: 0; //ed
+//     padding-bottom: 0;
+//     padding-top: 0;
+//     position: relative;
+//     box-shadow: 5px 5px 20px rgba($color: #000000, $alpha: 0);
+//     cursor: pointer;
+//     img {
+//       object-fit: cover;
+//       border-radius: 1rem;
+//       margin-bottom: 10;
+//       transition: 0.25s;
+//     }
+//     .black-overlay {
+//       z-index: 200;
+//       display: flex;
+//       justify-content: center;
+//       align-items: center;
+//       padding: 1.5rem;
+//       font-weight: bold;
+//       font-size: 1.1rem;
+//       position: absolute;
+//       top: 0;
+//       left: 0;
+//       right: 0;
+//       transition: all 0.3s ease-in;
+//       background-image: radial-gradient(
+//         rgba(0, 0, 0, 0.4),
+//         rgba(0, 0, 0, 0.2),
+//         rgba(0, 0, 0, 0)
+//       );
+//       height: 100%;
+//       width: 100%;
+
+//       mat-progress-spinner {
+//         width: 40px;
+//         height: 40px;
+//       }
+//     }
+//     ::ng-deep .mat-card-header-text {
+//       min-width: 0;
+//     }
+//     mat-card-footer {
+//       background-color: rgba(0, 0, 0, 0.865);
+//       padding: 1rem;
+//       position: relative;
+//       bottom: -1200px;
+//       width: 100%;
+//       transition: 0.1s;
+//       z-index: 200;
+//     }
+//     .uploaded-time {
+//       color: white;
+//       font-size: 1rem;
+//     }
+//     .disease-name {
+//       font-weight: bold;
+//       font-size: 1.2rem;
+//       color: white;
+//     }
+//   }
+
+//   mat-card:hover {
+//     .plant-thumbnail-img {
+//       transform: scale(1.4);
+//     }
+//     mat-card-footer {
+//       bottom: 1rem;
+//     }
+//   }
+// }
+
+// :host ::ng-deep .mat-progress-spinner circle,
+// .mat-spinner circle {
+//   stroke: white;
+// }
+/* Toolbar Styling */
+.toolbar {
+  background-color: #333333;
+  padding: 1.5rem 2rem;
+  display: grid;
+  align-items: center;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+// .upload-button {
+//   background-color: #ffffff;
+//   color: #333333;
+//   font-size: 1.2rem;
+//   padding: 0.8rem 2rem;
+//   border: 2px solid #ffffff;
+//   border-radius: 0.5rem;
+//   margin-right: 1rem;
+// }
+.upload-button {
+  background-color: #ffffff;
+  color: #333333;
+  font-size: 1.2rem;
+  padding: 0.8rem 2rem;
+  border: 2px solid #ffffff;
+  border-radius: 0.5rem;
+  margin-right: 1rem;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #333333;
+  color: #ffffff;
+  animation: borderChange 3s ease forwards; /* Adding animation */
+}
+
+@keyframes borderChange {
+  0% {
+    border-color: #ffffff;
+  }
+  100% {
+    border-color: #00ff00; /* green color */
+  }
+}
+
+
+
+h2 {
+  color: #ffffff;
+  font-size: 2.5rem;
+  font-weight: bold;
+  flex-grow: 1;
+  text-align: center;
+}
+
+/* Content Styling */
+.content {
+  padding: 2rem;
+}
+
+mat-card {
+  border-radius: 1rem;
+  overflow: hidden;
+  position: relative;
+  cursor: pointer;
+  transition: transform 0.3s ease-in-out;
+}
+
+mat-card img {
+  object-fit: cover;
+  border-radius: 1rem;
+  transition: transform 0.3s ease-in-out;
+}
+
+mat-card:hover img {
+  transform: scale(1.05);
+}
+
+.black-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: radial-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+mat-card:hover .black-overlay {
+  opacity: 1;
+}
+
+mat-card-footer {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: #ffffff;
+  padding: 1rem;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  transition: bottom 0.3s ease-in-out;
+}
+
+.uploaded-time {
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+}
+
+.disease-name {
+  font-weight: bold;
+  font-size: 1rem;
+  text-align: center;
+  color: #ffffff;
+}

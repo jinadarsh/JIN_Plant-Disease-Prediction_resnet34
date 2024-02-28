@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "plantdiseasedetection-83796",
+  "private_key_id": "59a883abddb2297c59a7a0bb1807ef7a6d53977a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDLl2sW77eZStjm\nsRiC+tuVSKTUULVxUPuHc+CLBu1ffXYmdOZMROlBjh3kGY2s/Z3xZuPweM9Qpwuv\nltiFzVfVIJ30c98p9sSGGE6VQeSrDLLzK596O5695AW0smpM70AxYaGs+76JAksc\nMSw34CnApWp2l3peXVzCywM3NoYLg5+b426ounl/P0CHij0FAuUndML5MwBt7ayP\nROVj+fAUueC47BtV8mZTw9tHPDBhIxIfBi2pwN14pREswJ2J4u+kQV7/pFdi7wuP\n7c9tVb6/UVgYr/I3Ovk1RDlNrUHHBTr2h8W5J0TyiyW0ImT4Yiswolv38e4Szfb0\npgVppROzAgMBAAECggEABdvfqxNO90xeHZVvHSXW997VT37bGd24v1coWRfj8OGN\nauHmVr+M7uQGHDBYEWhjCTVqzdrMLIgCIBV5ObCFHI8JvKUxAOYnFazRZh41VG7T\nH4hb2IqqsNBFEcQopvojoMgsfOvpuculGbSYjysWSIL6I1uMm/aX2ss41nftN5uO\n3hl91Aj5ChBVdBu1aRPADc62bHiOxscWPHPjBOu6eeOZstl5iuMD/9VErkWR3l9j\n4j8MwjyuBYgE1FIOJrZF7Qq/XBRQpwP9+QH+4QWFwr3lh6X2Qo+fWieDVfWER8Y7\nrtGBeo3PHbLJPD24YfFIWz8wqD4E9YWz5V9HBPHbAQKBgQD+3OdNy+JL1GGkxUBe\nNxIXIe7EFwL2Q8reOr5M9JvZ7EILKxLBfHy/02jMAOFhPJdIPByZ4rZnzPC4QN+S\nkQ8TTqZwVHCO4yxF673w3CnBDlWhgB/Ybvf/LvejJhR4wWtbWEmv5VMxq12RmJ46\n99JQd2JbxMcQIj+nTrr1tSdfQQKBgQDMf/RD8nQhT3bJCPxLSZNDoT7Wi3RIJqAW\n4FF1TiVuKuamzKv2K150b1os7Yx4R2U0WoF3Xpl9yUom7JLLV8kvxRbw//JCNdUZ\nHqBGZ09yqSgyuKpyNjl8okd/bCn9yLifrdOgiuYJkmO/IeblXXOUnIkKUkuNX8U6\nU8YWdjRp8wKBgCI6xQ4bzf7lPWAF5glBWDqnIgxQEuPEYyDJvvlS+QOhyZT6agB2\nmcKhwDd1/s8ydhcLi8PXQSxbyBDXFa/3r5CmRZBcpulp9W5GpTIOP8VgCXwxWxWU\ngdZSFoxg9uro/2Q7TVpEcJIBNAXz+3xsAGEyR5GPsjSmhOoRluadN/aBAoGAUnpI\nyh6/N7AU+H/nQXYrLtuZvG4COBdb+d3+/JDIB+bFoABsWpyjO9KtS/GC9f/VkYfv\nL3W38kN85LYFfn2pZtrWpdyUmJ+dksQHYF3KbTRMQii4ldfI17ubmojFZtXNoJk7\nAUUEAlhIYo4J0fge5ZE8tCz8y8gUg7HF8sk52oECgYEA2jL+c25scu/W3G484NCy\nMPgWskaUzxWHm+9+7DAwyctQ2nGxXtfCDQjWkFDfbIav1dRaQO74WB9RunO9sZeX\nhErN0DEtS4nuoDIhhlsd0CvePIGZtzIMzNzaLTpSMm1v/rwz+I1juQKgcc+mf8o+\nx4771aYP2/lqW24fZzbhA3w=\n-----END PRIVATE KEY-----\n",
+  "client_email": "plantdiseasedetection-83796@appspot.gserviceaccount.com",
+  "client_id": "104092124366839367489",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/plantdiseasedetection-83796%40appspot.gserviceaccount.com",
+  "universe_domain": "googleapis.com"
+}

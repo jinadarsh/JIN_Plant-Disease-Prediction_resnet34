@@ -1,0 +1,13 @@
+
+* {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+  box-sizing: border-box;
+  margin: 30;
+  padding: 30;
+}
+
+:host {
+  $color_secondary: #0324ff;
+  $color_primary: rgb(255, 255, 255);
+}
